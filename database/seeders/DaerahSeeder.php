@@ -44,12 +44,12 @@ class DaerahSeeder extends Seeder
             ['name' => 'Kabupaten Temanggung', 'latitude' => -7.3089, 'longitude' => 110.1602],
             ['name' => 'Kabupaten Wonogiri', 'latitude' => -7.8195, 'longitude' => 110.9384],
             ['name' => 'Kabupaten Wonosobo', 'latitude' => -7.3633, 'longitude' => 109.9034],
-            ['name' => 'Kota Magelang', 'latitude' => -7.4797, 'longitude' => 110.2177],
-            ['name' => 'Kota Pekalongan', 'latitude' => -6.889, 'longitude' => 109.6757],
+            ['name' => 'Kota Magelang', 'latitude' => -7.4697, 'longitude' => 110.2250],
+            ['name' => 'Kota Pekalongan', 'latitude' => -6.8800, 'longitude' => 109.6900],
             ['name' => 'Kota Salatiga', 'latitude' => -7.3305, 'longitude' => 110.5084],
-            ['name' => 'Kota Semarang', 'latitude' => -6.9667, 'longitude' => 110.4167],
+            ['name' => 'Kota Semarang', 'latitude' => -6.9500, 'longitude' => 110.4200],
             ['name' => 'Kota Surakarta', 'latitude' => -7.5667, 'longitude' => 110.8167],
-            ['name' => 'Kota Tegal', 'latitude' => -6.8694, 'longitude' => 109.1402],
+            ['name' => 'Kota Tegal', 'latitude' => -6.8600, 'longitude' => 109.1600],
         ];
 
         foreach ($cities as $city) {
