@@ -87,9 +87,9 @@
                     icon: customIcon
                 })
                 .bindPopup(`
-                    <b>${city.name}</b><br>
-                    Jumlah Eksportir: ${city.eksportirs_count}<br>
-                    <a href="/export-csv/${city.id}" target="_blank" style="color: blue; text-decoration: underline;">
+                    <b style="font-size: 16px;"'>${city.name}</b><br>
+                    <span style="font-size: 15px;">Jumlah Eksportir: ${city.eksportirs_count}</span><br>
+                    <a href="/export-csv/${city.id}" target="_blank" style="color: blue; text-decoration: underline; font-size: 15px;">
                         Download Data Eksportir ${city.name}
                     </a>
                 `)
